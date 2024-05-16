@@ -59,6 +59,10 @@ p {
     padding-left: 25%;
     padding-right: 25%;
 }
+iframe {
+    width: 560px;
+    height: 315px;
+}
 }
 
 @media (max-width:500px) {
@@ -92,5 +96,8 @@ p {
 p {
     padding-left: 5%;
     padding-right: 5%;
+}
+iframe {
+    width: fit-content;
 }
 }
